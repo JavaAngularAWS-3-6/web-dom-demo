@@ -1,0 +1,7 @@
+
+<div *ngIf="visible" >
+<div *ngFor = "let favorite of favorites">
+    <span>{{favorite.title}}</span>
+</div>
+</div>
+<button (click)="swapVisibility()">show/hide favorites</button>
