@@ -1,0 +1,4 @@
+<div *ngFor = "let ticket of tickets">
+    <app-ticket [ticket]="ticket"></app-ticket>
+    <app-ticket-resolve-button [ticket]="ticket" (refreshEvent) = "refresh()"></app-ticket-resolve-button>
+</div>
