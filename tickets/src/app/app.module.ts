@@ -11,6 +11,8 @@ import { TicketComponent } from './components/ticket/ticket.component';
 import { TicketResolveButtonComponent } from './components/ticket-resolve-button/ticket-resolve-button.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './pages/login/login.component';
+import { LoginFormComponent } from './components/login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     InputComponent,
     TicketListComponent,
     TicketComponent,
-    TicketResolveButtonComponent
+    TicketResolveButtonComponent,
+    LoginComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
